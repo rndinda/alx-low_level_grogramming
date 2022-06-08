@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * times_tables - Prints the 9 times table,
+ * times_table - checks codde that Prints the 9 times table,
  * Returns: 0.
  */
 void times_table(void)
@@ -19,7 +19,7 @@ void times_table(void)
 			}
 			product = i * j;
 			_putchar(',');
-			_putchar(' ');;
+			_putchar(' ');
 			if (product >= 10)
 			{
 				_putchar(product / 10 + 48);
