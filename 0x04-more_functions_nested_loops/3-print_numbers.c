@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * print_numbers - print out 0 to 9 and a newline
+ * print_numbers - Prints out 0 to 9 and a newline
  *
  * Return: void
  */
+
 void print_numbers(void)
 {
 	char b = 0;
