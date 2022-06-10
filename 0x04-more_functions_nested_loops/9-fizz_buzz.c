@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * main - prints numbers from 1 to 100 
- * replacing mutiples of 3 with fizz and 
+ * main - prints numbers from 1 to 100
+ * replacing mutiples of 3 with fizz and
  * mutiples of 5 with buzz and
  * mutiples of both with fizzbuzz
  *
@@ -25,10 +25,10 @@ int main(void)
 		else if (i % 3 == 0)
 			printf("%s ", f);
 		else if (i % 5 == 0)
-		        printf("%s ", b);
-	        else
-		        printf("%d ", i);
+			printf("%s ", b)
+		else
+			printf("%d ", i);
 	}
-        printf("\n");
-        return (0);
-}	
+	printf("\n");
+	return (0);
+}
