@@ -3,9 +3,9 @@
 
 /**
  * main - prints numbers from 1 to 100
- * replacing mutiples of 3 with fizz and
- * mutiples of 5 with buzz and
- * mutiples of both with fizzbuzz
+ * replacing multiples of 3 with fizz and
+ * multiples of 5 with buzz and
+ * multiples of both with fizzbuzz
  *
  * Return: zero.
  */
