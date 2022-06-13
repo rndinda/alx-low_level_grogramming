@@ -8,12 +8,12 @@
  */
 int _atoi(char *s)
 {
-	int sign = 1
+	int sign = 1;
 	unsigned int numb = 0;
 
 	do {
 		if (*s == '-')
-			sign * = -1;
+			sign *= -1;
 
 		else if (*s >= '0' && *s <= '9')
 			numb = (numb * 10) + (*s - '0');
