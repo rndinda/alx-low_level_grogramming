@@ -13,7 +13,7 @@ char *cap_string(char *s)
 	while (s[index])
 	{
 		while (!(s[index] >= 'a' && s[index] <= 'z'))
-			index++;
+			index++
 
 		if (s[index - 1] == ' ' ||
 				s[index - 1] == '\t' ||
@@ -29,7 +29,7 @@ char *cap_string(char *s)
 				s[index - 1] == '{' ||
 				s[index - 1] == '}' ||
 				index == 0)
-			        s[index] -= 32;
+				s[index] -= 32;
 
 		index++;
 	}
