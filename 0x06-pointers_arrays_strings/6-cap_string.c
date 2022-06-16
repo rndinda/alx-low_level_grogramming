@@ -13,6 +13,7 @@ char *cap_string(char *s)
 	if (*(s + num) >= 97 && *(s + num) <= 122)
 		*(s + num) = *(s + num) - 32;
 	num++;
+
 	while (*(s + num) != '\0')
 	{
 		for (i = 0; i < 13; i++)
@@ -20,7 +21,7 @@ char *cap_string(char *s)
 			if (*(s + num) == sample_words[i])
 			{
 				if ((*(s + (num + 1)) >= 97) && (*(s + (num + 1)) <= 122))
-					*(s(num + 1)) = *(s + (num + 1)) - 32;
+					*(s + (num + 1)) = *(s + (num + 1)) - 32;
 				break;
 			}
 		}
