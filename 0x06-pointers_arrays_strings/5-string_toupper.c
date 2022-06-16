@@ -6,7 +6,7 @@
  * @s: the input string
  * Return: pointer to dest
  */
-char *string_toupper(char *)
+char *string_toupper(char *s)
 {
 	int num = 0;
 
