@@ -1,1 +1,1 @@
-My Hello world C project
+My readme
